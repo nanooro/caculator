@@ -1,0 +1,48 @@
+.greet1{
+    text-align: center;
+    color: rgb(129, 196, 255);
+    padding: -20px;
+    padding-bottom: -20px;
+}
+.operands{
+    text-align: center;
+    padding: 10px;
+}
+.onetothree{
+    text-align: center;
+}
+.threetosix{
+    text-align:center;
+}
+.sixtonine{
+    text-align:center;
+}
+.zero{
+    text-align: center;
+}
+.result{
+    font-size: 30px;
+    text-align: center;
+    padding: -90px;
+}
+button{
+    padding: 9px 15px;
+    font-size: 15px;
+    background-color: #dddddd;
+    outline: none;
+    border: none;
+    padding: ;
+    margin: -4px;
+    border-radius: 6px;
+}
+.resultbelow{
+    width: 250px;
+    /* padding: 30px; just commeted this bcuz i think i can make a  box with this */
+}
+.equals{
+    padding: 10px 50px;
+}
+.js{
+    color: rgb(255, 127, 127);
+    padding: 0px;
+}

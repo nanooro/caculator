@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="greet1">addition made in <P class="js" >javascript!</p></h1>  
+    <div class="buttons">
+      <div class="onetothree">
+        <button onClick="add++">1</button>
+        <button onClick="add+=2">2</button>
+        <button onClick="add+=3">3</button>
+      </div>
+      <div class="threetosix">
+        <button onClick="add+=4">4</button>
+        <button onClick="add+=5">5</button>
+        <button onClick="add+=6">6</button>
+      </div>
+      <div class="sixtonine">
+        <button onClick="add+=7">7</button>
+        <button onClick="add+=8">8</button>
+        <button onClick="add+=9">9</button>
+      </div>
+      <div class="zero" onClick="add++">
+        <button>0</button>
+      </div>
+      <div class="operands">
+        <!-- <button>+</button> -->
+        <!-- <button>-</button>
+        <button>/</button>
+        <button>*</button> -->
+        <button class="equals" onClick="update()">=</button>
+      </div>
+    </div>
+      <hr class="resultbelow">
+    <p id="result" class="result">0</p>
+    <script src="index.js"></script>
+  </body>
+</html>
